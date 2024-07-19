@@ -1,0 +1,41 @@
+$primary : #a4a6ff;
+$secondary : #4dafff; 
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body, #root, .app, .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+button, input, textarea, h1, h2, h3, h4, h5, p, label, span {
+    font-family: "Lexend", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+
+.app {
+    .container {
+
+        justify-content: start;
+        align-items: center;
+
+        .home {
+            height:50rem;
+        }
+
+        
+    }
+}
